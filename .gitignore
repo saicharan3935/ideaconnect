@@ -1,0 +1,18 @@
+# Dependencies and generated output
+node_modules/
+**/node_modules/
+client/dist/
+server/dist/
+
+# Local configuration and databases
+server/.env
+.env
+.env.*
+!.env.example
+server/prisma/*.db
+server/prisma/*.db-journal
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
